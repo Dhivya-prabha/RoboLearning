@@ -1,0 +1,88 @@
+Map
+***
+Types of implementation:
+1. Hash map
+2. Linked Hash Map
+3. TreeMap
+
+Map is not the child interface of collection
+It it not a true collection
+It represent data in Key-Value pair
+Duplicate keys not allowed in Map
+Duplicate values are allowed
+
+
+Hash Map:
+**** ***
+It is an implementation class of map
+Java HashMap contains values based on the key.
+Java HashMap contains only unique keys.
+Java HashMap may have one null key and multiple null values.
+Java HashMap is non synchronized.
+Java HashMap maintains no order.
+
+
+
+Abstract class:
+======== ======
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+An abstract class must be declared with an abstract keyword.
+It can have abstract and non-abstract methods.
+It cannot be instantiated.
+It needs to be extended and its method implemented. 
+It can have constructors and static methods also.
+It can have final methods which will force the subclass not to change the body of the method.
+
+
+
+Interface:
+==========
+There can be only abstract methods in the Java interface, not method body. 
+It is used to achieve abstraction and multiple inheritance in Java.
+Interface fields are public, static and final by default, and the methods are public and abstract.
+It cannot be instantiated just like the abstract class.
+we can have private, default and static methods in an interface.
+
+An interface is declared by using the interface keyword. 
+It provides total abstraction; means all the methods in an interface are declared with the empty body, and all the fields are public, static and final by default. 
+A class that implements an interface must implement all the methods declared in the interface.
+A class implements an interface, but one interface extends another interface.
+
+
+JMS:
+=====
+ Java Message Service (JMS) API, a Java API that allows applications to create, send, receive, and read messages using reliable, asynchronous, loosely coupled communication.
+JMS is mainly used to send and receive message from one application to another.
+
+1) Asynchronous: To receive the message, client is not required to send request. Message will arrive automatically to the client.
+
+2) Reliable: It provides assurance that message is delivered.
+
+
+Black Box testing:
+===== ===
+Black box testing is the Software testing method which is used to test the software without knowing the internal structure of code or program.
+Programming Knowledge is not required to carry out Black Box Testing.
+Testing is applicable on higher levels of testing like System Testing, Acceptance testing.
+
+White Box Testing:
+===== === ========
+White box testing is the software testing method in which internal structure is being known to tester who is going to test the software.
+Programming Knowledge is required to carry out White Box Testing.
+Testing is applicable on lower level of testing like Unit Testing, Integration testing.
+
+Synchronized block vs Synchronized method:
+============ ===== == ============ =======
+The main difference between the synchronized method and the synchronized block is a selection of locks on which critical section is locked.
+https://vivadifferences.com/difference-between-synchronized-method-and-synchronized-block/
+
+
+How to make a class not-inherited in java:
+=== == ==== = ===== ============= == =====
+Solution-1: Using final keyword
+Using final keyword before a class declaration we can stop a class to be inherited by other classes.
+
+Solution-2: By making a class constructor private:
+We can also stop a class to be extended/inherited by other classes in Java by making the class constructor private.
+
+how to make a class non-instantiated but can be inherited

@@ -1,0 +1,20 @@
+JUnit:
+
+JUnit is a unit testing framework for Java programming language.
+An open-source framework, it is used to write and run repeatable automated tests.
+JUnit has been important in the development of test-driven development
+
+It is allowed to have any number of annotations listed above.
+All the methods annotated with @Before in JUnit will run before each test case, but they may run in any order.
+You can inherit @Before and @After methods from a super class, Execution is as follows: It is a standard execution process in JUnit.
+
+Annotations
+@BeforeClass – Run once before any of the test methods in the class, public static void
+@AfterClass – Run once after all the tests in the class have been run, public static void
+@Before – Run before @Test, public void
+@After – Run after @Test, public void
+@Test – This is the test method to run, public void
+
+
+Differences Between Abstract Class and Interface
+https://www.delftstack.com/howto/java/abstract-class-vs-interface-java/#differences-between-abstract-class-and-interface
